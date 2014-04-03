@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6D2EF11C-CB45-4405-9023-5F53E196FFDA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UltraParty2000VJPro</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>247DBA69-2E41-498B-B734-09B673AF3D02</key>
+		<string>https://github.com/UltravisualApp/UltraParty2000VJPro.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UltraParty2000VJPro/UltraParty2000VJPro.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>247DBA69-2E41-498B-B734-09B673AF3D02</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/UltravisualApp/UltraParty2000VJPro.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>247DBA69-2E41-498B-B734-09B673AF3D02</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>247DBA69-2E41-498B-B734-09B673AF3D02</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UltraParty2000VJPro</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BA682E718EDFAE0004AE40E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA682E618EDFAE0004AE40E /* Cocoa.framework */; };
+		1BA682F118EDFAE0004AE40E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BA682EF18EDFAE0004AE40E /* InfoPlist.strings */; };
+		1BA682F318EDFAE0004AE40E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA682F218EDFAE0004AE40E /* main.m */; };
+		1BA682F718EDFAE0004AE40E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1BA682F518EDFAE0004AE40E /* Credits.rtf */; };
+		1BA682FA18EDFAE0004AE40E /* UP2VJPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA682F918EDFAE0004AE40E /* UP2VJPAppDelegate.m */; };
+		1BA682FD18EDFAE0004AE40E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BA682FB18EDFAE0004AE40E /* MainMenu.xib */; };
+		1BA682FF18EDFAE0004AE40E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA682FE18EDFAE0004AE40E /* Images.xcassets */; };
+		1BA6830618EDFAE0004AE40E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA6830518EDFAE0004AE40E /* XCTest.framework */; };
+		1BA6830718EDFAE0004AE40E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA682E618EDFAE0004AE40E /* Cocoa.framework */; };
+		1BA6830F18EDFAE0004AE40E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BA6830D18EDFAE0004AE40E /* InfoPlist.strings */; };
+		1BA6831118EDFAE0004AE40E /* UltraParty2000VJProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA6831018EDFAE0004AE40E /* UltraParty2000VJProTests.m */; };
+		1BA6831B18EDFD73004AE40E /* Ultravisual Party QTZ.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 1BA6831A18EDFD73004AE40E /* Ultravisual Party QTZ.qtz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BA6830818EDFAE0004AE40E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BA682DB18EDFAE0004AE40E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BA682E218EDFAE0004AE40E;
+			remoteInfo = UltraParty2000VJPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BA682E318EDFAE0004AE40E /* UltraParty2000VJPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltraParty2000VJPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BA682E618EDFAE0004AE40E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1BA682E918EDFAE0004AE40E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1BA682EA18EDFAE0004AE40E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1BA682EB18EDFAE0004AE40E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1BA682EE18EDFAE0004AE40E /* UltraParty2000VJPro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UltraParty2000VJPro-Info.plist"; sourceTree = "<group>"; };
+		1BA682F018EDFAE0004AE40E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1BA682F218EDFAE0004AE40E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BA682F418EDFAE0004AE40E /* UltraParty2000VJPro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UltraParty2000VJPro-Prefix.pch"; sourceTree = "<group>"; };
+		1BA682F618EDFAE0004AE40E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1BA682F818EDFAE0004AE40E /* UP2VJPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UP2VJPAppDelegate.h; sourceTree = "<group>"; };
+		1BA682F918EDFAE0004AE40E /* UP2VJPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UP2VJPAppDelegate.m; sourceTree = "<group>"; };
+		1BA682FC18EDFAE0004AE40E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1BA682FE18EDFAE0004AE40E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1BA6830418EDFAE0004AE40E /* UltraParty2000VJProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltraParty2000VJProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BA6830518EDFAE0004AE40E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1BA6830C18EDFAE0004AE40E /* UltraParty2000VJProTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UltraParty2000VJProTests-Info.plist"; sourceTree = "<group>"; };
+		1BA6830E18EDFAE0004AE40E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1BA6831018EDFAE0004AE40E /* UltraParty2000VJProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UltraParty2000VJProTests.m; sourceTree = "<group>"; };
+		1BA6831A18EDFD73004AE40E /* Ultravisual Party QTZ.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "Ultravisual Party QTZ.qtz"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BA682E018EDFAE0004AE40E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA682E718EDFAE0004AE40E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA6830118EDFAE0004AE40E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA6830718EDFAE0004AE40E /* Cocoa.framework in Frameworks */,
+				1BA6830618EDFAE0004AE40E /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BA682DA18EDFAE0004AE40E = {
+			isa = PBXGroup;
+			children = (
+				1BA682EC18EDFAE0004AE40E /* UltraParty2000VJPro */,
+				1BA6830A18EDFAE0004AE40E /* UltraParty2000VJProTests */,
+				1BA682E518EDFAE0004AE40E /* Frameworks */,
+				1BA682E418EDFAE0004AE40E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BA682E418EDFAE0004AE40E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BA682E318EDFAE0004AE40E /* UltraParty2000VJPro.app */,
+				1BA6830418EDFAE0004AE40E /* UltraParty2000VJProTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BA682E518EDFAE0004AE40E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BA682E618EDFAE0004AE40E /* Cocoa.framework */,
+				1BA6830518EDFAE0004AE40E /* XCTest.framework */,
+				1BA682E818EDFAE0004AE40E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BA682E818EDFAE0004AE40E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BA682E918EDFAE0004AE40E /* AppKit.framework */,
+				1BA682EA18EDFAE0004AE40E /* CoreData.framework */,
+				1BA682EB18EDFAE0004AE40E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1BA682EC18EDFAE0004AE40E /* UltraParty2000VJPro */ = {
+			isa = PBXGroup;
+			children = (
+				1BA682F818EDFAE0004AE40E /* UP2VJPAppDelegate.h */,
+				1BA682F918EDFAE0004AE40E /* UP2VJPAppDelegate.m */,
+				1BA682FB18EDFAE0004AE40E /* MainMenu.xib */,
+				1BA682FE18EDFAE0004AE40E /* Images.xcassets */,
+				1BA6831A18EDFD73004AE40E /* Ultravisual Party QTZ.qtz */,
+				1BA682ED18EDFAE0004AE40E /* Supporting Files */,
+			);
+			path = UltraParty2000VJPro;
+			sourceTree = "<group>";
+		};
+		1BA682ED18EDFAE0004AE40E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BA682EE18EDFAE0004AE40E /* UltraParty2000VJPro-Info.plist */,
+				1BA682EF18EDFAE0004AE40E /* InfoPlist.strings */,
+				1BA682F218EDFAE0004AE40E /* main.m */,
+				1BA682F418EDFAE0004AE40E /* UltraParty2000VJPro-Prefix.pch */,
+				1BA682F518EDFAE0004AE40E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BA6830A18EDFAE0004AE40E /* UltraParty2000VJProTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BA6831018EDFAE0004AE40E /* UltraParty2000VJProTests.m */,
+				1BA6830B18EDFAE0004AE40E /* Supporting Files */,
+			);
+			path = UltraParty2000VJProTests;
+			sourceTree = "<group>";
+		};
+		1BA6830B18EDFAE0004AE40E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BA6830C18EDFAE0004AE40E /* UltraParty2000VJProTests-Info.plist */,
+				1BA6830D18EDFAE0004AE40E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BA682E218EDFAE0004AE40E /* UltraParty2000VJPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BA6831418EDFAE0004AE40E /* Build configuration list for PBXNativeTarget "UltraParty2000VJPro" */;
+			buildPhases = (
+				1BA682DF18EDFAE0004AE40E /* Sources */,
+				1BA682E018EDFAE0004AE40E /* Frameworks */,
+				1BA682E118EDFAE0004AE40E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UltraParty2000VJPro;
+			productName = UltraParty2000VJPro;
+			productReference = 1BA682E318EDFAE0004AE40E /* UltraParty2000VJPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BA6830318EDFAE0004AE40E /* UltraParty2000VJProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BA6831718EDFAE0004AE40E /* Build configuration list for PBXNativeTarget "UltraParty2000VJProTests" */;
+			buildPhases = (
+				1BA6830018EDFAE0004AE40E /* Sources */,
+				1BA6830118EDFAE0004AE40E /* Frameworks */,
+				1BA6830218EDFAE0004AE40E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BA6830918EDFAE0004AE40E /* PBXTargetDependency */,
+			);
+			name = UltraParty2000VJProTests;
+			productName = UltraParty2000VJProTests;
+			productReference = 1BA6830418EDFAE0004AE40E /* UltraParty2000VJProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BA682DB18EDFAE0004AE40E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UP2VJP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Ultravisual;
+				TargetAttributes = {
+					1BA6830318EDFAE0004AE40E = {
+						TestTargetID = 1BA682E218EDFAE0004AE40E;
+					};
+				};
+			};
+			buildConfigurationList = 1BA682DE18EDFAE0004AE40E /* Build configuration list for PBXProject "UltraParty2000VJPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BA682DA18EDFAE0004AE40E;
+			productRefGroup = 1BA682E418EDFAE0004AE40E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BA682E218EDFAE0004AE40E /* UltraParty2000VJPro */,
+				1BA6830318EDFAE0004AE40E /* UltraParty2000VJProTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BA682E118EDFAE0004AE40E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA682F118EDFAE0004AE40E /* InfoPlist.strings in Resources */,
+				1BA682FF18EDFAE0004AE40E /* Images.xcassets in Resources */,
+				1BA682F718EDFAE0004AE40E /* Credits.rtf in Resources */,
+				1BA6831B18EDFD73004AE40E /* Ultravisual Party QTZ.qtz in Resources */,
+				1BA682FD18EDFAE0004AE40E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA6830218EDFAE0004AE40E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA6830F18EDFAE0004AE40E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BA682DF18EDFAE0004AE40E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA682F318EDFAE0004AE40E /* main.m in Sources */,
+				1BA682FA18EDFAE0004AE40E /* UP2VJPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA6830018EDFAE0004AE40E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA6831118EDFAE0004AE40E /* UltraParty2000VJProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BA6830918EDFAE0004AE40E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BA682E218EDFAE0004AE40E /* UltraParty2000VJPro */;
+			targetProxy = 1BA6830818EDFAE0004AE40E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BA682EF18EDFAE0004AE40E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BA682F018EDFAE0004AE40E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1BA682F518EDFAE0004AE40E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BA682F618EDFAE0004AE40E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1BA682FB18EDFAE0004AE40E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BA682FC18EDFAE0004AE40E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		1BA6830D18EDFAE0004AE40E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BA6830E18EDFAE0004AE40E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BA6831218EDFAE0004AE40E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1BA6831318EDFAE0004AE40E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1BA6831518EDFAE0004AE40E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UltraParty2000VJPro/UltraParty2000VJPro-Prefix.pch";
+				INFOPLIST_FILE = "UltraParty2000VJPro/UltraParty2000VJPro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1BA6831618EDFAE0004AE40E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UltraParty2000VJPro/UltraParty2000VJPro-Prefix.pch";
+				INFOPLIST_FILE = "UltraParty2000VJPro/UltraParty2000VJPro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1BA6831818EDFAE0004AE40E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UltraParty2000VJPro.app/Contents/MacOS/UltraParty2000VJPro";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UltraParty2000VJPro/UltraParty2000VJPro-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UltraParty2000VJProTests/UltraParty2000VJProTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1BA6831918EDFAE0004AE40E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UltraParty2000VJPro.app/Contents/MacOS/UltraParty2000VJPro";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UltraParty2000VJPro/UltraParty2000VJPro-Prefix.pch";
+				INFOPLIST_FILE = "UltraParty2000VJProTests/UltraParty2000VJProTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BA682DE18EDFAE0004AE40E /* Build configuration list for PBXProject "UltraParty2000VJPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA6831218EDFAE0004AE40E /* Debug */,
+				1BA6831318EDFAE0004AE40E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BA6831418EDFAE0004AE40E /* Build configuration list for PBXNativeTarget "UltraParty2000VJPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA6831518EDFAE0004AE40E /* Debug */,
+				1BA6831618EDFAE0004AE40E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1BA6831718EDFAE0004AE40E /* Build configuration list for PBXNativeTarget "UltraParty2000VJProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA6831818EDFAE0004AE40E /* Debug */,
+				1BA6831918EDFAE0004AE40E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BA682DB18EDFAE0004AE40E /* Project object */;
+}
