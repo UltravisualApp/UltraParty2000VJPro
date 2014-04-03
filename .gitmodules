@@ -1,0 +1,3 @@
+[submodule "QCJSON"]
+	path = QCJSON
+	url = https://github.com/boinx/QCJSON
