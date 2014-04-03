@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5023" systemVersion="13A603" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5023"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5053"/>
+        <plugIn identifier="com.apple.QuartzComposerIBPlugin" version="5053"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -13,6 +14,8 @@
         <customObject id="-3" userLabel="Application"/>
         <customObject id="Voe-Tx-rLC" customClass="UP2VJPAppDelegate">
             <connections>
+                <outlet property="parameterView" destination="fUB-2c-dmm" id="1wB-4R-ace"/>
+                <outlet property="view" destination="pMg-7N-P3a" id="9mM-Xs-HfZ"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
         </customObject>
@@ -667,13 +670,52 @@
             </items>
         </menu>
         <window title="UltraParty2000VJPro" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
+            <windowStyleMask key="styleMask" titled="YES" miniaturizable="YES" resizable="YES"/>
+            <windowCollectionBehavior key="collectionBehavior" fullScreenPrimary="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="335" y="390" width="480" height="381"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1178"/>
+            <view key="contentView" id="EiT-Mj-1SZ">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="381"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="pMg-7N-P3a">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="381"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    </customView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="pMg-7N-P3a" secondAttribute="bottom" id="2C2-0b-z8H"/>
+                    <constraint firstAttribute="trailing" secondItem="pMg-7N-P3a" secondAttribute="trailing" id="MxI-Q3-nLX"/>
+                    <constraint firstItem="pMg-7N-P3a" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" id="gIz-sK-Uj6"/>
+                    <constraint firstItem="pMg-7N-P3a" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" id="koA-Ik-rZl"/>
+                </constraints>
+            </view>
+        </window>
+        <qcCompositionParameterView id="clA-th-849">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="250"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+        </qcCompositionParameterView>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hidesOnDeactivate="YES" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" animationBehavior="default" id="SDy-Nc-fuH" customClass="NSPanel">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="480" height="360"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1028"/>
-            <view key="contentView" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
+            <rect key="contentRect" x="196" y="132" width="276" height="378"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1178"/>
+            <view key="contentView" id="ncd-0l-aPs">
+                <rect key="frame" x="0.0" y="0.0" width="276" height="378"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <qcCompositionParameterView translatesAutoresizingMaskIntoConstraints="NO" id="fUB-2c-dmm">
+                        <rect key="frame" x="0.0" y="0.0" width="276" height="378"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    </qcCompositionParameterView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="fUB-2c-dmm" secondAttribute="bottom" id="0Ka-AD-Ulb"/>
+                    <constraint firstItem="fUB-2c-dmm" firstAttribute="leading" secondItem="ncd-0l-aPs" secondAttribute="leading" id="Dwu-eA-ns7"/>
+                    <constraint firstAttribute="trailing" secondItem="fUB-2c-dmm" secondAttribute="trailing" id="Iig-iQ-3CR"/>
+                    <constraint firstItem="fUB-2c-dmm" firstAttribute="top" secondItem="ncd-0l-aPs" secondAttribute="top" id="ee0-hP-ld3"/>
+                </constraints>
             </view>
         </window>
     </objects>

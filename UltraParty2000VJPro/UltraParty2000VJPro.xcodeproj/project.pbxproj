@@ -18,7 +18,10 @@
 		1BA6830718EDFAE0004AE40E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA682E618EDFAE0004AE40E /* Cocoa.framework */; };
 		1BA6830F18EDFAE0004AE40E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BA6830D18EDFAE0004AE40E /* InfoPlist.strings */; };
 		1BA6831118EDFAE0004AE40E /* UltraParty2000VJProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA6831018EDFAE0004AE40E /* UltraParty2000VJProTests.m */; };
-		1BA6831B18EDFD73004AE40E /* Ultravisual Party QTZ.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 1BA6831A18EDFD73004AE40E /* Ultravisual Party QTZ.qtz */; };
+		1BA6831D18EE0134004AE40E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA6831C18EE0134004AE40E /* OpenGL.framework */; };
+		1BA6831F18EE013A004AE40E /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA6831E18EE013A004AE40E /* Quartz.framework */; };
+		1BA6832118EE0142004AE40E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA6832018EE0142004AE40E /* CoreVideo.framework */; };
+		1BA6832318EE02D7004AE40E /* UltraParty2000VJPro.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 1BA6832218EE02D7004AE40E /* UltraParty2000VJPro.qtz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +54,10 @@
 		1BA6830C18EDFAE0004AE40E /* UltraParty2000VJProTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UltraParty2000VJProTests-Info.plist"; sourceTree = "<group>"; };
 		1BA6830E18EDFAE0004AE40E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1BA6831018EDFAE0004AE40E /* UltraParty2000VJProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UltraParty2000VJProTests.m; sourceTree = "<group>"; };
-		1BA6831A18EDFD73004AE40E /* Ultravisual Party QTZ.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "Ultravisual Party QTZ.qtz"; sourceTree = "<group>"; };
+		1BA6831C18EE0134004AE40E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		1BA6831E18EE013A004AE40E /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		1BA6832018EE0142004AE40E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		1BA6832218EE02D7004AE40E /* UltraParty2000VJPro.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = UltraParty2000VJPro.qtz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BA6832118EE0142004AE40E /* CoreVideo.framework in Frameworks */,
+				1BA6831F18EE013A004AE40E /* Quartz.framework in Frameworks */,
+				1BA6831D18EE0134004AE40E /* OpenGL.framework in Frameworks */,
 				1BA682E718EDFAE0004AE40E /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,6 +106,9 @@
 		1BA682E518EDFAE0004AE40E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1BA6832018EE0142004AE40E /* CoreVideo.framework */,
+				1BA6831E18EE013A004AE40E /* Quartz.framework */,
+				1BA6831C18EE0134004AE40E /* OpenGL.framework */,
 				1BA682E618EDFAE0004AE40E /* Cocoa.framework */,
 				1BA6830518EDFAE0004AE40E /* XCTest.framework */,
 				1BA682E818EDFAE0004AE40E /* Other Frameworks */,
@@ -121,7 +133,7 @@
 				1BA682F918EDFAE0004AE40E /* UP2VJPAppDelegate.m */,
 				1BA682FB18EDFAE0004AE40E /* MainMenu.xib */,
 				1BA682FE18EDFAE0004AE40E /* Images.xcassets */,
-				1BA6831A18EDFD73004AE40E /* Ultravisual Party QTZ.qtz */,
+				1BA6832218EE02D7004AE40E /* UltraParty2000VJPro.qtz */,
 				1BA682ED18EDFAE0004AE40E /* Supporting Files */,
 			);
 			path = UltraParty2000VJPro;
@@ -237,7 +249,7 @@
 				1BA682F118EDFAE0004AE40E /* InfoPlist.strings in Resources */,
 				1BA682FF18EDFAE0004AE40E /* Images.xcassets in Resources */,
 				1BA682F718EDFAE0004AE40E /* Credits.rtf in Resources */,
-				1BA6831B18EDFD73004AE40E /* Ultravisual Party QTZ.qtz in Resources */,
+				1BA6832318EE02D7004AE40E /* UltraParty2000VJPro.qtz in Resources */,
 				1BA682FD18EDFAE0004AE40E /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
