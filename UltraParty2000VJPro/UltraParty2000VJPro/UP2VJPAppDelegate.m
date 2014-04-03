@@ -49,6 +49,13 @@ CVReturn MyDisplayLinkCallback(CVDisplayLinkRef displayLink,const CVTimeStamp *i
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+	NSString* jsonPlugin = [[NSBundle mainBundle] builtInPlugInsPath];
+	jsonPlugin = [jsonPlugin stringByAppendingPathComponent:@"QCJSON.plugin"];
+	
+	if(![QCPlugIn loadPlugInAtPath:jsonPlugin])
+	{
+		NSLog(@"WHAT THE SHIT");
+	}
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateRenderView:) name:NSViewFrameDidChangeNotification object:self.view];
 	
 	id propertyList = [[NSUserDefaults standardUserDefaults] valueForKey:@"UP2VJPSavedInputValues"];
