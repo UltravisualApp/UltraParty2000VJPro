@@ -12,6 +12,8 @@
 	<dict>
 		<key>247DBA69-2E41-498B-B734-09B673AF3D02</key>
 		<string>https://github.com/UltravisualApp/UltraParty2000VJPro.git</string>
+		<key>C2B70094-F8CD-4691-9312-B5939E03B543</key>
+		<string>https://github.com/boinx/QCJSON</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>UltraParty2000VJPro/UltraParty2000VJPro.xcodeproj/project.xcworkspace</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>247DBA69-2E41-498B-B734-09B673AF3D02</key>
 		<string>../../..</string>
+		<key>C2B70094-F8CD-4691-9312-B5939E03B543</key>
+		<string>../../../QCJSON</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/UltravisualApp/UltraParty2000VJPro.git</string>
@@ -28,6 +32,14 @@
 	<string>247DBA69-2E41-498B-B734-09B673AF3D02</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C2B70094-F8CD-4691-9312-B5939E03B543</string>
+			<key>IDESourceControlWCCName</key>
+			<string>QCJSON</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
